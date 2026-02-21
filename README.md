@@ -3,5 +3,4 @@
 
 ## Пишем скрипт для вывода состояния процессов системы из ФС /proc
 Показывает имена всех процессов в системе, их текущее состояние, ID процесса и ID процесса родителя: \
-root@Ubuntu22:~# grep -e Name -e State -e ^Pid -e PPid /proc/*/status \
-
+root@Ubuntu22:~# grep -e Name -e State -e ^Pid -e PPid /proc/*/status 
